@@ -1,10 +1,10 @@
 {
   "name": "@zenginehq/backend-upload-to-form-record-field",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Upload a file to a form record's file upload field",
   "main": "index.js",
   "scripts": {
-	"release": "standard-version",
+    "release": "standard-version",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
