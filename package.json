@@ -4,6 +4,7 @@
   "description": "Upload a file to a form record's file upload field",
   "main": "index.js",
   "scripts": {
+	"release": "standard-version",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,8 +19,11 @@
   "homepage": "https://github.com/ZengineHQ/zn-backend-upload-to-form-record-field#readme",
   "dependencies": {
     "@zenginehq/backend-get-plugin": "git+https://github.com/ZengineHQ/zn-backend-get-plugin.git#1.0.0",
+    "mime-types": "2.1.24",
     "request": "2.88.0",
-	"uuid": "3.3.2",
-	"mime-types": "2.1.24"
+    "uuid": "3.3.2"
+  },
+  "devDependencies": {
+    "standard-version": "^9.3.2"
   }
 }
