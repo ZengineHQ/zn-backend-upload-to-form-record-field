@@ -20,6 +20,7 @@ const deleteLocalFile = require('./lib/delete-local-file');
  * @param {number} options.fieldId
  * @param {number} options.filePath - Local Path or Remote Url to File
  * @param {number} options.fileName - Upload Filename
+ * @param {boolean} options.isComplete - Is the record complete ?
  */
 async function uploadToFormRecordField(options) {
 
@@ -30,7 +31,8 @@ async function uploadToFormRecordField(options) {
 		recordId,
 		fieldId,
 		filePath,
-		fileName
+		fileName,
+		isComplete
 	} = options;
 
 	let {
@@ -78,7 +80,8 @@ async function uploadToFormRecordField(options) {
 			recordId,
 			fieldId,
 			filePath: localPath,
-			fileName
+			fileName,
+			isComplete
 		});
 
 	}
