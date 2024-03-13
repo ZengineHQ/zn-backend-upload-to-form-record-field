@@ -5,7 +5,7 @@ Upload a file to a form record's file upload field.
 ## Installation
 
 ```bash
-npm i @zenginehq/backend-upload-to-form-record-field --save
+npm install --save https://github.com/ZengineHQ/zn-backend-upload-to-form-record-field 
 ```
 
 ## Usage
